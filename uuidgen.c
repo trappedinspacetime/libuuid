@@ -32,8 +32,9 @@ extern int optind;
 
 #include "uuid.h"
 #include "nls.h"
-#include "c.h"
 #include "closestream.h"
+#include "c.h"
+
 
 static void __attribute__ ((__noreturn__)) usage(FILE * out)
 {
